@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-servertools') {
+orgs.newOrg('webtools.servertools', 'eclipse-servertools') {
   settings+: {
     description: "",
     name: "Eclipse Server Tools",
